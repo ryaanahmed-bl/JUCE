@@ -2540,7 +2540,7 @@ protected:
     }
 
     static String getWebView2PackageName()     { return "Microsoft.Web.WebView2"; }
-    static String getWebView2PackageVersion()  { return "1.0.1901.177"; }
+    static String getWebView2PackageVersion()  { return "1.0.3065.39"; }
 
     void createPackagesConfigFile() const
     {
