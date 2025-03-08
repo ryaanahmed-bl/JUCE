@@ -335,7 +335,7 @@ public:
         String getLibrarySearchPathString() const              { return librarySearchPathValue.get(); }
         StringArray getLibrarySearchPaths() const;
 
-        String getPrecompiledHeaderFilename() const            { return "JucePrecompiledHeader_" + getName(); }
+        String getPrecompiledHeaderFilename() const            { return project.getProjectNameString() + "_JucePrecompiledHeader_" + getName(); }
         static String getSkipPrecompiledHeaderDefine()         { return "JUCE_SKIP_PRECOMPILED_HEADER"; }
 
         bool shouldUsePrecompiledHeaderFile() const            { return usePrecompiledHeaderFileValue.get(); }
