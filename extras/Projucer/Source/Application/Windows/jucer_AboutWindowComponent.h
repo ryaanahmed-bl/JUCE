@@ -47,7 +47,7 @@ public:
 
         auto buildDate = Time::getCompilationDate();
         addAndMakeVisible (versionLabel);
-        versionLabel.setText ("JUCE v" + ProjucerApplication::getApp().getApplicationVersion()
+        versionLabel.setText ("JUCE v" + ProjucerApplication::getApp().getApplicationVersion() + " Cakewalk"
                               + "\nBuild date: " + String (buildDate.getDayOfMonth())
                                                  + " " + Time::getMonthName (buildDate.getMonth(), true)
                                                  + " " + String (buildDate.getYear()),

@@ -163,6 +163,10 @@
         <FILE id="xtpyoD" name="LICENSE" compile="0" resource="1" file="Source/BinaryData/gradle/LICENSE"/>
       </GROUP>
       <GROUP id="{85F5CA8E-1014-692B-2677-292237A41AF5}" name="Icons">
+        <FILE id="MIvLac" name="logo_cakewalk_markTypeThemeable.svg" compile="0"
+              resource="1" file="Source/BinaryData/Icons/logo_cakewalk_markTypeThemeable.svg"/>
+        <FILE id="FJoScC" name="logo_cakewalkMeterMark.svg" compile="0" resource="1"
+              file="Source/BinaryData/Icons/logo_cakewalkMeterMark.svg"/>
         <FILE id="HvDzzK" name="background_logo.svg" compile="0" resource="1"
               file="Source/BinaryData/Icons/background_logo.svg"/>
         <FILE id="qqeJmA" name="export_android.svg" compile="0" resource="1"

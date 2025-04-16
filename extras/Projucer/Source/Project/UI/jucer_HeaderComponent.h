@@ -95,9 +95,9 @@ private:
     Value projectNameValue;
 
     ComboBox exporterBox;
-    Label configLabel  { "Config Label", "Selected exporter" }, projectNameLabel;
+    Label configLabel  { "Config Label", "Selected exporter" }, projectNameLabel, cakewalkCustomizationlabel;
 
-    ImageComponent juceIcon;
+    std::unique_ptr<Drawable> cakewalkIcon;
 
     IconButton projectSettingsButton { "Project Settings", getIcons().settings },
                saveAndOpenInIDEButton { "Save and Open in IDE", Image() };

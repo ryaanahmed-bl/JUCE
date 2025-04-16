@@ -5216,6 +5216,12 @@
     <None Include="..\..\Source\BinaryData\gradle\LICENSE">
       <Filter>Projucer\BinaryData\gradle</Filter>
     </None>
+    <None Include="..\..\Source\BinaryData\Icons\logo_cakewalk_markTypeThemeable.svg">
+      <Filter>Projucer\BinaryData\Icons</Filter>
+    </None>
+    <None Include="..\..\Source\BinaryData\Icons\logo_cakewalkMeterMark.svg">
+      <Filter>Projucer\BinaryData\Icons</Filter>
+    </None>
     <None Include="..\..\Source\BinaryData\Icons\background_logo.svg">
       <Filter>Projucer\BinaryData\Icons</Filter>
     </None>

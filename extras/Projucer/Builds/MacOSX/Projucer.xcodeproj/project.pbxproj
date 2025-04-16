@@ -200,7 +200,9 @@
 		BF006EF584FB274FF0319E08 /* Foundation.framework */ /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BF3CEF080FA013E2778DCE90 /* jucer_Project.h */ /* jucer_Project.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jucer_Project.h; path = ../../Source/Project/jucer_Project.h; sourceTree = SOURCE_ROOT; };
 		C16F9F479A3A5F6DAD7647A2 /* jucer_VersionInfo.h */ /* jucer_VersionInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jucer_VersionInfo.h; path = ../../Source/Utility/Helpers/jucer_VersionInfo.h; sourceTree = SOURCE_ROOT; };
+		C27B1FD9EBE9BD582613875E /* logo_cakewalk_markTypeThemeable.svg */ /* logo_cakewalk_markTypeThemeable.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; name = logo_cakewalk_markTypeThemeable.svg; path = ../../Source/BinaryData/Icons/logo_cakewalk_markTypeThemeable.svg; sourceTree = SOURCE_ROOT; };
 		C2835F16963B34839FC36220 /* jucer_NewProjectWizard.cpp */ /* jucer_NewProjectWizard.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = jucer_NewProjectWizard.cpp; path = ../../Source/Application/StartPage/jucer_NewProjectWizard.cpp; sourceTree = SOURCE_ROOT; };
+		C2C8A44D465CAB821B48E5DF /* logo_cakewalkMeterMark.svg */ /* logo_cakewalkMeterMark.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; name = logo_cakewalkMeterMark.svg; path = ../../Source/BinaryData/Icons/logo_cakewalkMeterMark.svg; sourceTree = SOURCE_ROOT; };
 		C3BB9F92B02B06D04A73794C /* jucer_ProjectExporter.cpp */ /* jucer_ProjectExporter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = jucer_ProjectExporter.cpp; path = ../../Source/ProjectSaving/jucer_ProjectExporter.cpp; sourceTree = SOURCE_ROOT; };
 		C3E04CD5A93A45154894E624 /* jucer_Colours.h */ /* jucer_Colours.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jucer_Colours.h; path = ../../Source/Utility/Helpers/jucer_Colours.h; sourceTree = SOURCE_ROOT; };
 		C59E624F099CC785F27429EB /* jucer_Icons.h */ /* jucer_Icons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jucer_Icons.h; path = ../../Source/Utility/UI/jucer_Icons.h; sourceTree = SOURCE_ROOT; };
@@ -560,6 +562,8 @@
 		C83BF6127A39BE2C4ED80B67 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				C27B1FD9EBE9BD582613875E,
+				C2C8A44D465CAB821B48E5DF,
 				514F2FAFDBF535AC03FA2E6C,
 				807049CA2D5B6DE18EA078F2,
 				69B478C992FA0B8C885946A6,

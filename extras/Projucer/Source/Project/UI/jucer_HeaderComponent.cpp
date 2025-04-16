@@ -51,8 +51,10 @@ HeaderComponent::HeaderComponent (ProjectContentComponent* pcc)
 
     exporterBox.onChange = [this] { updateExporterButton(); };
 
-    juceIcon.setImage (ImageCache::getFromMemory (BinaryData::juce_icon_png, BinaryData::juce_icon_pngSize), RectanglePlacement::centred);
-    addAndMakeVisible (juceIcon);
+
+	// Create a drawable from the SVG data
+	cakewalkIcon = Drawable::createFromImageData( BinaryData::logo_cakewalkMeterMark_svg, BinaryData::logo_cakewalkMeterMark_svgSize );
+	addAndMakeVisible( cakewalkIcon.get() );
 
     projectNameLabel.setText ({}, dontSendNotification);
     addAndMakeVisible (projectNameLabel);
@@ -74,7 +76,19 @@ void HeaderComponent::resized()
 
         projectSettingsButton.setBounds (buttonBounds.removeFromBottom (buttonSize).reduced (2));
 
-        juceIcon.setBounds (headerBounds.removeFromLeft (headerBounds.getHeight()).reduced (2));
+        /*
+        auto iconBounds = headerBounds.removeFromLeft( headerBounds.getHeight() );
+        iconBounds.setX( iconBounds.getX() + 10 );
+        iconBounds.setY( iconBounds.getY() + 10 );
+        cakewalkIcon->setBounds( iconBounds );
+        */
+
+		// Calculate available space for icon
+		int iconHeight = headerBounds.getHeight();
+		auto iconBounds = headerBounds.removeFromLeft( iconHeight );
+		cakewalkIcon->setTransformToFit( iconBounds.toFloat(), RectanglePlacement::centred );
+
+        headerBounds.removeFromLeft( 10 );  // padding
 
         headerBounds.removeFromRight (5);
         projectNameLabel.setBounds (headerBounds);

@@ -44,6 +44,12 @@ namespace BinaryData
     extern const char*   LICENSE;
     const int            LICENSESize = 11325;
 
+    extern const char*   logo_cakewalk_markTypeThemeable_svg;
+    const int            logo_cakewalk_markTypeThemeable_svgSize = 4002;
+
+    extern const char*   logo_cakewalkMeterMark_svg;
+    const int            logo_cakewalkMeterMark_svgSize = 462;
+
     extern const char*   background_logo_svg;
     const int            background_logo_svgSize = 3249;
 
@@ -216,7 +222,7 @@ namespace BinaryData
     const int            juce_SimpleBinaryBuilder_cppSize = 12997;
 
     // Number of elements in the namedResourceList and originalFileNames arrays.
-    const int namedResourceListSize = 69;
+    const int namedResourceListSize = 71;
 
     // Points to the start of a list of resource names.
     extern const char* namedResourceList[];

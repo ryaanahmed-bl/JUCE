@@ -2921,6 +2921,8 @@
     <None Include="..\..\Source\BinaryData\gradle\gradlew"/>
     <None Include="..\..\Source\BinaryData\gradle\gradlew.bat"/>
     <None Include="..\..\Source\BinaryData\gradle\LICENSE"/>
+    <None Include="..\..\Source\BinaryData\Icons\logo_cakewalk_markTypeThemeable.svg"/>
+    <None Include="..\..\Source\BinaryData\Icons\logo_cakewalkMeterMark.svg"/>
     <None Include="..\..\Source\BinaryData\Icons\background_logo.svg"/>
     <None Include="..\..\Source\BinaryData\Icons\export_android.svg"/>
     <None Include="..\..\Source\BinaryData\Icons\export_linux.svg"/>
